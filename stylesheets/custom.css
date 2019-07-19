@@ -1,0 +1,22 @@
+figure {
+    margin: unset !important;
+ }
+ .images {
+   text-align: center;
+ }
+ .images img {
+   width: 100vh;
+   height:auto;
+ }
+
+ .clearfix {
+     clear: both;
+ }
+  
+  @media only screen 
+   and (min-device-width : 375px) 
+   and (max-device-width : 812px) { 
+     .images img {
+       width: 52vh;
+     }
+  }

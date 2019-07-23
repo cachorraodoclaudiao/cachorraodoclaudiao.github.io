@@ -2,29 +2,22 @@
 <html>
   <head>
     <style>
-      body, html {
-        height: 100%;
-        background-color: #340010
-      }
+      #bg {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
 
-      div {
-        display: block;
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
       }
-
-      .bg { 
-        background-image: url('images/PAGINA INICIAL.png');
-        height: 100%;
-        position: relative;
-        background-position: center;
-        background-repeat: no-repeat;
-      }  
     </style>
     <title>Cachorrão do Claudião</title>
     <meta name="google-site-verification" content="pfXgu8KqUxn6PUvJmjI9cT75LtbWwKsPqnTB6VymiWg" />
   </head>
   <body>
-    <a href="cardapio.html">
-      <div class="bg"></div>
-    </a>
+      <a href="cardapio.html">
+        <img src="images/HOME.png" id="bg" alt="">
+      </a>
   </body>
 </html>

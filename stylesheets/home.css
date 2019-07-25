@@ -6,9 +6,17 @@ html, body
     padding:0;
 }
 
-.teste a {
+.teste {
     background:url(../images/HOME.png);
     background-position:50% 50%;
     background-repeat:no-repeat;
     background-color: black;
 }
+
+.invisible {
+    height: 100%;
+    width:100%;
+    display: block;
+}
+    
+   

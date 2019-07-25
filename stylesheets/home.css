@@ -6,7 +6,7 @@ html, body
     padding:0;
 }
 
-.teste {
+div {
     background:url(../images/HOME.png);
     background-position:50% 50%;
     background-repeat:no-repeat;

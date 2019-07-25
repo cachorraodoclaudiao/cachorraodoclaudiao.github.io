@@ -9,6 +9,14 @@ figure {
    height:auto;
  }
 
+.image {
+    text-align:center;
+}
+.image img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
  .clearfix {
      clear: both;
  }
@@ -17,6 +25,9 @@ figure {
    and (min-device-width : 375px) 
    and (max-device-width : 812px) { 
      .images img {
+       width: 52vh;
+     }
+     .image img {
        width: 52vh;
      }
   }

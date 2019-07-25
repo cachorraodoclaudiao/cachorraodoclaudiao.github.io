@@ -4,6 +4,9 @@ html, body
     width:100%;
     margin:0;
     padding:0;
+}
+
+div a {
     background:url(../images/HOME.png);
     background-position:50% 50%;
     background-repeat:no-repeat;

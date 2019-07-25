@@ -5,9 +5,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/home.css"/>
     <meta name="google-site-verification" content="pfXgu8KqUxn6PUvJmjI9cT75LtbWwKsPqnTB6VymiWg" />
   </head>
-  <body>
-    <div>
-      <a href="cardapio.html" class="invisible"></a>
-    </div>
+  <body id="link">
   </body>
+  <script>
+    var link = document.getElementById('link');
+
+    link.style.cursor = 'pointer';
+    link.onclick = function() {
+        window.location.href("cardapio.html");
+    };
 </html>
